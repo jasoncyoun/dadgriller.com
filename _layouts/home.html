@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<section class="posts">
+  {% for post in paginator.posts %}
+  <article class="post-card">
+    <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-date">
+      {{ post.date | date: "%B %e, %Y" }}
+      {% if post.categories and post.categories != empty %}
+        |
+        {% for category in post.categories %}
+          <a class="post-category" href="/categories/{{ category | slugify }}/">
+            {{ category }}
+          </a>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      {% endif %}
+    </p>
+    
+    {% if post.image %}
+    <a href="{{ post.url | relative_url }}">
+      <img class="post-image" src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
+    </a>
+    {% endif %}
+    <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
+      <p><a class="read-more" href="{{ post.url | relative_url }}">Read more →</a></p>
+    </article>
+    {% endfor %}
+  </section>
+
+
+  <nav class="pager">
+  {% if paginator.previous_page %}
+    <a class="prev" href="{{ paginator.previous_page_path | relative_url }}">← Newer</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="next" href="{{ paginator.next_page_path | relative_url }}">Older →</a>
+  {% endif %}
+</nav>

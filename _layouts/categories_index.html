@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1>Categories</h1>
+
+<section class="category-list">
+  {% assign sorted_cats = page.categories | sort %}
+  {% for cat in sorted_cats %}
+    {% assign name = cat[0] %}
+    {% assign posts = cat[1] %}
+    {% assign latest = posts | sort: "date" | last %}
+
+    <article class="category-row">
+      <a href="/categories/{{ name | slugify }}/" class="category-thumb-link">
+        {% if latest.image %}
+          <img src="{{ latest.image | relative_url }}" alt="{{ name }} category image">
+        {% else %}
+          <div class="category-placeholder">No image</div>
+        {% endif %}
+      </a>
+      <div class="category-info">
+        <h2 class="category-name">
+          <a href="/categories/{{ name | slugify }}/">{{ name }}</a>
+        </h2>
+        <p class="category-count">{{ posts.size }} post{% if posts.size != 1 %}s{% endif %}</p>
+      </div>
+    </article>
+  {% endfor %}
+</section>

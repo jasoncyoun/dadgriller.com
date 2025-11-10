@@ -1,0 +1,41 @@
+title: dadgriller
+description: "Smoke • Sear • Savor"
+url: "" # e.g. https://dadgriller.com
+baseurl: "" # leave blank for root
+
+
+permalink: /:categories/:year/:month/:day/:title/
+markdown: kramdown
+
+
+# Excerpts: use <!--more--> in posts to control the fold
+excerpt_separator: "<!--more-->"
+
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+plugins:
+- jekyll-paginate
+# - jekyll-feed
+
+
+# Collections / defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Jason
+
+# Build
+sass:
+
+# Create category pages automatically
+collections:
+  categories:
+    output: true
+
+include:
+  - assets/js

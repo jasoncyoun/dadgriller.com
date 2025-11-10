@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<section class="posts">
+  {% if page.posts and page.posts != empty %}
+    {% for post in page.posts %}
+      <article class="post-card">
+        <h2 class="post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-date">{{ post.date | date: "%B %e, %Y" }}</p>
+        {% if post.image %}
+          <a href="{{ post.url | relative_url }}">
+            <img class="post-image" src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
+          </a>
+        {% endif %}
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+        </div>
+        <p><a class="read-more" href="{{ post.url | relative_url }}">Read more →</a></p>
+      </article>
+    {% endfor %}
+  {% else %}
+    <p>No posts yet in this category.</p>
+  {% endif %}
+</section>

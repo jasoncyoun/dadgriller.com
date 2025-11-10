@@ -1,0 +1,23 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+
+<section class="search-page">
+  <h1>Search Recipes</h1>
+
+  <form class="search-form search-page-form" action="{{ '/search' | relative_url }}" method="get" onsubmit="return false;">
+    <input aria-label="Search" type="search" name="q" id="search-input" placeholder="Type to search recipes..." autofocus>
+    <button type="submit" aria-label="Search">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </form>
+
+  <div id="search-results" class="search-results" aria-live="polite"></div>
+</section>
+
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
