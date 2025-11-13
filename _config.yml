@@ -4,7 +4,7 @@ url: "" # e.g. https://dadgriller.com
 baseurl: "" # leave blank for root
 
 
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:title/
 markdown: kramdown
 
 
