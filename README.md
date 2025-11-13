@@ -14,3 +14,5 @@ bundle install
 Run:
 ```
 bundle exec jekyll serve --livereload
+
+Make sure you have CLOUDFRONT_DISTRIBUTION_ID defined in your .env file

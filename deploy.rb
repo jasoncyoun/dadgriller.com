@@ -1,8 +1,12 @@
 require 'aws-sdk-s3'
 require 'dotenv'
 require 'mime/types'
+require 'aws-sdk-cloudfront'
 
 Dotenv.load
+
+cloudfront = Aws::CloudFront::Client.new(region: 'us-west-2')
+distribution_id = ENV['CLOUDFRONT_DISTRIBUTION_ID']
 
 # Configuration
 s3 = Aws::S3::Resource.new(region: 'us-west-2')
@@ -41,3 +45,19 @@ files.each_with_index do |file, index|
 end
 
 puts "Sync complete!"
+
+puts "Creating CloudFront invalidation..."
+
+resp = cloudfront.create_invalidation(
+  distribution_id: distribution_id,
+  invalidation_batch: {
+    paths: {
+      quantity: 1,
+      items: ["/*"]
+    },
+    caller_reference: "deploy-#{Time.now.to_i}"
+  }
+)
+
+puts "Invalidation created! ID: #{resp.invalidation.id}"
+puts "Status: #{resp.invalidation.status}"

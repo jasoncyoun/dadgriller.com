@@ -1,5 +1,5 @@
 (function(){
-  const baseServings = 2;  // default servings for the recipe
+  const baseServings = document.getElementById('servings-picker').getAttribute('data-base-servings-size');
 
   const selectEl = document.getElementById('servings-select');
   const listItems = document.querySelectorAll('.ingredient-list li[data-base-qty][data-unit]');

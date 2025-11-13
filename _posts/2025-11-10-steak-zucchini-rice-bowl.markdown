@@ -3,7 +3,7 @@ layout: post
 title: "Steak and Zucchini Rice Bowl"
 date: 2025-11-10 09:00:00 -0800
 image: /assets/images/steak-zucchini.jpg
-categories: [beef bowl]
+categories: [beef, bowl]
 ---
 
 
@@ -15,7 +15,7 @@ For my seasoning, I went to my favorite <a href="https://www.kinders.com/product
 
 <script src="{{ '/assets/js/recipe-servings.js' | relative_url }}" defer></script>
 
-<div class="servings-picker">
+<div class="servings-picker" id="servings-picker" data-base-servings-size="2">
   <label for="servings-select">Servings:</label>
   <select id="servings-select">
     <option value="1">1</option>
