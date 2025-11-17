@@ -3,7 +3,7 @@ layout: post
 title: "Chicken Breakfast Burritos"
 date: 2025-11-13 09:00:00 -0800
 image: /assets/images/chicken-breakfast-burritos.jpg
-categories: [chicken, breakfast, burrito]
+categories: [chicken, breakfast, burrito, meal prep]
 ---
 
 One thing I find super helpful during the week is to meal plan so that I can have meals ready to eat for myself and my family. I found a recipe for a simple breakfast burrito that is healthy and packed with protein. Also these super simple to make. The hardest part was figuring out how to roll a burrito without it falling apart.  This recipe will result in 8 burritos that you can freeze and pop in the microwave later whenever you need to.
