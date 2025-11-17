@@ -22,7 +22,7 @@ Personally I've followed this for a few months and was able to drop 18 pounds. Y
 
 The reasons why protein is so important:
 1. It helps you feeling full. You ever eat a large vegetarian meal and still feel hungry, or get hungry a few minutes later? 
-2. When you're losing weight, you want to aim to lose fat, not muscle. But your body will break dowh muscle if you don't get enough protein.
+2. When you're losing weight, you want to aim to lose fat, not muscle. But your body will break down muscle if you don't get enough protein.
 3. It boosts your metabolism. Your body burns more calories burning protein than it does carbs or fat.
 
 There are actually tons more reasons but you get the point. 

@@ -14,4 +14,4 @@ Also, as someone in their mid-40's, I try to eat pretty healthy. I want to be ar
 
 <!--more-->
 
-For the photo you're looking at here, I had an idea one day to make chashu ramen, but instead of ramen to use brisket. Man the brisket was the star of the show here. I am still refining this recipe so I will post it later when ready. Anyway, thanks for coming and there will be more recipes to come!
+For the photo you're looking at here, I had an idea one day to make chashu ramen, but instead of chashu to use brisket. Man the brisket was the star of the show here. I am still refining this recipe so I will post it later when ready. Anyway, thanks for coming and there will be more recipes to come!
