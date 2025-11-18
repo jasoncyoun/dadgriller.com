@@ -53,7 +53,7 @@ This is by far the thing that I hate making the most, but at the same time one o
 8. If freezing, make sure you wait until it is fully cooled, or else it will steam up in the foil and make the dough mushy.
 
 
-### Macros  
+### Macros 
 Calories: **400 kcal**  
 Protein: **35 g**  
 Carbohydrates: **30 g**  
