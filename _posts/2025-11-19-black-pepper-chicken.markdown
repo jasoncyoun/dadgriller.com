@@ -72,16 +72,17 @@ Grab your wok and let's get started.
 </div>
 
 ### Directions  
-1. Mix the diced chicken with all of the ingredients in the "chicken" section (soy sauce, sesame oil, salt, white pepper, avocado oil, corn starch) above in a large bowl and let it sit for at least 20-30 minutes.
-2. Cut your celery at an angle into 1 inch pieces. Cut your onion into 1 inch pedals and set these two aside. You can put them in the same bowl.
-3. Dice your garlic & ginger and set aside in a small bowl. You can put them in the same bowl.
-4. Mix all of the ingredients in the "sauce" section (black pepper, oyster sauce, soy sauce, cooking sake, sugar, chicken stock, corn starch) in a bowl.
-5. In a wok, cook your chicken on high heat until it browns and is fully cooked through. This can take a few minutes. It doesn't have to be a wok but anything large enough to fit everything will work.
-6. After chicken is cooked, take it out of the wok and set it aside. 
-7. Over high heat and in the same wok, fry the garlic and ginger for just a few seconds. Don't burn it.
-8. Add the celery and onion and cook for a couple of minutes. You want to cook this just a tad bit before you would consider it fully done because you'll keep cooking it later for a bit.
-9. Add the chicken to the wok and add the sauce and stir everything through and let it cook until the sauce thickens. There's no exact science behind this, but just make sure it's thick and not watery.
-10. Scoop half a cup of the white rice, half a cup of the wild rice, and 3/4 cup of the chicken. You can  at however much you want obviously, but that's what I'm basing the macros on below.
+1. Cook your rice. If you're not sure how to cook wild rice, just add it to a pot of boiling water or chicken broth and simmer it covered for 45 mins. I'll assume you know how to cook white rice or have a rice cooker.
+2. Mix the diced chicken with all of the ingredients in the "chicken" section (soy sauce, sesame oil, salt, white pepper, avocado oil, corn starch) above in a large bowl and let it sit for at least 20-30 minutes.
+3. Cut your celery at an angle into 1 inch pieces. Cut your onion into 1 inch pedals and set these two aside. You can put them in the same bowl.
+4. Dice your garlic & ginger and set aside in a small bowl. You can put them in the same bowl.
+5. Mix all of the ingredients in the "sauce" section (black pepper, oyster sauce, soy sauce, cooking sake, sugar, chicken stock, corn starch) in a bowl.
+6. In a wok, cook your chicken on high heat until it browns and is fully cooked through. This can take a few minutes. It doesn't have to be a wok but anything large enough to fit everything will work.
+7. After chicken is cooked, take it out of the wok and set it aside. 
+8. Over high heat and in the same wok, fry the garlic and ginger for just a few seconds. Don't burn it.
+9. Add the celery and onion and cook for a couple of minutes. You want to cook this just a tad bit before you would consider it fully done because you'll keep cooking it later for a bit.
+10. Add the chicken to the wok and add the sauce and stir everything through and let it cook until the sauce thickens. There's no exact science behind this, but just make sure it's thick and not watery.
+11. Scoop half a cup of the white rice, half a cup of the wild rice, and 3/4 cup of the chicken. You can  at however much you want obviously, but that's what I'm basing the macros on below.
 
 ### Macros 
 Calories: **365 kcal**  
