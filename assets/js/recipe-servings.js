@@ -8,36 +8,45 @@
 
   function formatQty(num) {
     const rounded = Math.round(num * 100) / 100;
+  
+    // Whole number?
     if (rounded % 1 === 0) {
       return String(rounded);
     }
-    if (rounded === 0.5) {
-      return '½'
-    } else if (rounded === 0.75) {
-      return '¾';
-    } else if (rounded === 0.25) {
-      return '¼';
-    } else if (rounded === 0.33) {
-      return '⅓';
-    } else if (rounded === 0.66) {
-      return '⅔';
-    } else if (rounded === 0.83) {
-      return '⅝';
-    } else if (rounded === 0.16) {
-      return '⅛';
-    } else if (rounded === 0.625) {
-      return '⅝';
-    } else if (rounded === 0.375) {
-      return '⅜';
-    } else if (rounded === 0.875) {
-      return '⅞';
+  
+    const whole = Math.floor(rounded);
+    const decimal = rounded - whole;
+  
+    const fractionMap = {
+      0.5:  '½',
+      0.25: '¼',
+      0.75: '¾',
+      0.33: '⅓',
+      0.66: '⅔',
+      0.125: '⅛',
+      0.375: '⅜',
+      0.625: '⅝',
+      0.875: '⅞',
+    };
+  
+    // Find closest match within a small tolerance
+    let fraction = null;
+    for (const [key, symbol] of Object.entries(fractionMap)) {
+      if (Math.abs(decimal - parseFloat(key)) < 0.02) {
+        fraction = symbol;
+        break;
+      }
     }
-    const str = rounded.toString();
-    if (str.startsWith('0.')) {
-      return str.slice(1);
+  
+    // If we found a fraction
+    if (fraction) {
+      return whole > 0 ? `${whole} ${fraction}` : fraction;
     }
-    return str;
+  
+    // Fallback: return as a simple decimal
+    return String(rounded);
   }
+  
 
   function updateQuantities(newServings) {
     const factor = newServings / baseServings;
