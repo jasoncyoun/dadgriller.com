@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Egg Bites"
+date: 2025-12-19 09:00:00 -0800
+image: /assets/images/egg-bites.jpg
+categories: [breakfast, chicken, egg]
+---
+
+One thing I like to get at Starbucks is those bacon egg bites. Problem is they're like 6 bucks for 2 and they're 300 calories at 19 grams of protein. Here's a way you can make them at home. Also you can freeze it and microwave them for a quick and high protein breakfast.  Mine has chicken instead of bacon because that's what I had (leftover rotisserie chicken), and it's way higher in protein and lower in calories.
+
+<!--more-->
+
+<script src="{{ '/assets/js/recipe-servings.js' | relative_url }}" defer></script>
+
+<div class="servings-picker" id="servings-picker" data-base-servings-size="4">
+  <label for="servings-select">Servings (4 egg bites):</label>
+  <select id="servings-select">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6" selected>6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+  </select>
+</div>
+
+<div class="ingredients-box">
+  <h3>Ingredients</h3>
+  <ul class="ingredient-list">
+    <li data-base-qty="3" data-unit="whole" data-ingredient-name="eggs"></li>
+    <li data-base-qty="0.5" data-unit="cup" data-ingredient-name="Egg whites - they sell this at the groery store in small cartons"></li>
+    <li data-base-qty="0.25" data-unit="tbsp" data-ingredient-name="low/non-fat cottage cheese"></li>
+    <li data-base-qty="0.75" data-unit="cup" data-ingredient-name="Rotisserie chicken, chopped"></li>
+    <li data-base-qty="0.25" data-unit="cup" data-ingredient-name="Diced bell peppers"></li>
+    <li data-base-qty="0.25" data-unit="cup" data-ingredient-name="Low-fat shredded cheese"></li>
+    <li data-base-qty="0.25" data-unit="cup" data-ingredient-name="Diced turkey pepperoni"></li>
+  </ul>
+</div>
+
+### Directions  
+1. Grab a food processor or blendor and add the eggs, egg whites, and cottage cheese and blend until smooth.
+2. Get your mold to cook everything in. I used these small silicon molds 
+![Alt text](/assets/images/silicon-mold.jpeg)
+ but if I could do it again, I'd use a larger cupcake one. Also these are much easier to clean than the metal ones, but tricky to carry since it folds. So what I did was slide it on a cutting board and then carefully pulled it into the oven later.
+3. Add the chicken, bell peppers, and the turkey pepperoni.
+4. Add the egg mix in each cavity evenly.
+5. Bake at 325 degrees for 25 minutes.
+
+### Macros (for 4 bites)
+Calories: **260 kcal**  
+Protein: **30 g**  
+Carbohydrates: **4 g**  
+Fat: **10 g**
+
+The protein/calorie ratio here is what sets it apart. Plus it tastes pretty good. A high-protein breakfast for the week that you don't have to think about.
