@@ -12,7 +12,7 @@ One thing I find super helpful during the week is to meal plan so that I can hav
 
 <script src="{{ '/assets/js/recipe-servings.js' | relative_url }}" defer></script>
 
-<div class="servings-picker" id="servings-picker" data-base-servings-size="6">
+<div class="servings-picker" id="servings-picker" data-base-servings-size="8">
   <label for="servings-select">Servings:</label>
   <select id="servings-select">
     <option value="1">1</option>
